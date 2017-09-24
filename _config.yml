@@ -2,9 +2,6 @@
 title: Yoxi.tv
 timezone: UTC
 collections:
-  background-images:
-    title: Background Images
-    output: true
   posts:
     title: Posts
     output: true
