@@ -13,7 +13,7 @@
 			<div class="column is-10-md">
 				<div class="bios has-margin-top-large">
 
-					{% for person in site.data.bios %}
+					{% for person in site.bios %}
 					<article class="bio has-margin-bottom-large">
 						<a href="#" class="is-link-wrapper no-effects js-control bio-toggle">
 							<div class="is-flex-md align-items-end">
@@ -26,7 +26,7 @@
 										<p class="bio-question is-marginless">{{person.question}}</p>
 									</header>
 									<p class="bio-cite is-color-primary-dark is-strong is-marginless is-flex is-align-center">
-										<span class="is-flex-expand">{{person.name}}, {{person.title}}</span>
+										<span class="is-flex-expand">{{person.title}}, {{person.prof_title}}</span>
 										<span class="is-block leading-0">
 											<button class="is-color-primary-dark">
 												<i class="fa fa-caret-down bio-icon-reveal is-fs-2"></i>
@@ -40,7 +40,7 @@
 							</div>
 							<div class="is-offset-2-md is-10-md has-padding-left-large-md has-padding-top-medium-md has-padding-bottom">
 								<div class="bio-text">
-									{{person.bio | markdownify}}
+									{{person.content | markdownify}}
 									<p class="is-color-primary-dark has-text-center is-marginless">
 										<i class="fa fa-caret-up bio-icon-close is-fs-2"></i>
 									</p>
