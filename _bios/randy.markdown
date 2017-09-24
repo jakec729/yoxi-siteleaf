@@ -1,0 +1,12 @@
+---
+title: Randy Makiej
+question: How can we stop talking about ice cream and space elevator?
+prof_title: Advisor
+image: "/uploads/sharon.jpg"
+---
+
+Kaz is an innovation strategist and practitioner, a human-centered design thinker, and a complex systems problem-solver. She is a consultant of opportunity, working across sectors, going broad and deep, and connecting diverse networks of high-caliber thinkers and doers to catalyze systems change. As the daughter of two rocket scientists, Kaz founded Curious Catalyst to marry investigation with action, bringing an agile take to the business of social impact. Often called a professional outsider, Kaz brings to Yoxi her ability to recognize patterns and blind spots. 
+
+After years working with emerging technology platforms and solving larger cross-disciplinary problems in the digital agency space, Kaz earned her stripes in the start-up world, leading strategy and operations for early social media innovators and then an open-source cloud computing powerhouse focused on the developing world. With a background across media platforms, Kaz brings a unique creative perspective to her innovation work, combining film, print, broadcast, branding and transmedia storytelling. 
+
+Kaz is a Stanford graduate, Challenge Faculty at and a fellow of THNK School of Creative Leadership, and a Certified Scrum Master. In addition to her work with Yoxi, Kaz continues to support industry leaders from Mattel to Disney, institutions like the Smithsonian, entrepreneurs, and non-profits through designing and facilitating capacity building experiences and human-centered design collaboration. She believes empathy is the only literacy that matters and loves cultivating this through experiencing other cultures around the globe – from spending time as a chief on a Fijian island to decamping to the Tuscan hill towns.
