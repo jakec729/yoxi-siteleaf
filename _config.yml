@@ -13,37 +13,18 @@ description: Write an awesome description for your new site here. You can edit t
   line in _config.yml. It will appear in your document head meta (for Google search
   results) and in your feed.xml site description.
 background_images:
-- image: assets/imgs/bg-imgs/Corner_Interests.jpg
-  alt: placeholder
-- image: assets/imgs/bg-imgs/Corner_Press.jpg
-  alt: placeholder
-- image: assets/imgs/bg-imgs/journey-02-video.jpg
-  alt: placeholder
-- image: assets/imgs/bg-imgs/video-slide-test.jpg
-  alt: placeholder
-- image: assets/imgs/bg-imgs/yoxi_astronaut.jpg
-  alt: placeholder
-- image: assets/imgs/bg-imgs/Yoxi_BG_BOLD.jpg
-  alt: placeholder
-- image: assets/imgs/bg-imgs/Yoxi_BG_Crowd.jpg
-  alt: placeholder
-- image: assets/imgs/bg-imgs/Yoxi_BG_Kyle.jpg
-  alt: placeholder
-- image: assets/imgs/bg-imgs/Yoxi_BG_Network.jpg
-  alt: placeholder
-- image: assets/imgs/bg-imgs/Yoxi_BG_SciFi.jpg
-  alt: placeholder
-- image: assets/imgs/bg-imgs/Yoxi_BG_Sewing_2.jpg
-  alt: placeholder
-- image: assets/imgs/bg-imgs/Corner_Interests.jpg
-  alt: placeholder
-- image: assets/imgs/bg-imgs/Corner_Press.jpg
-  alt: placeholder
-- image: assets/imgs/bg-imgs/journey-02-video.jpg
-  alt: placeholder
-- image: assets/imgs/bg-imgs/video-slide-test.jpg
-  alt: placeholder
-baseurl: ''
+- image: "/uploads/Yoxi_BG_Sewing_2.jpg"
+- image: "/uploads/Yoxi_BG_Network.jpg"
+- image: "/uploads/Yoxi_BG_SciFi.jpg"
+- image: "/uploads/Yoxi_BG_Crowd.jpg"
+- image: "/uploads/Yoxi_BG_Kyle.jpg"
+- image: "/uploads/yoxi_astronaut.jpg"
+- image: "/uploads/Yoxi_BG_BOLD.jpg"
+- image: "/uploads/video-slide-test.jpg"
+- image: "/uploads/journey-02-video.jpg"
+- image: "/uploads/Corner_Press.jpg"
+- image: "/uploads/Corner_Interests.jpg"
+baseurl: 
 url: http://yoxi.tv
 markdown: kramdown
 kramdown:
