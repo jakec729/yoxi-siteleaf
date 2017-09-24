@@ -2,7 +2,7 @@
 title: Kaz Brecher
 question: How do we prevent Sharon from breaking the space elevator again and again?
 prof_title: Executive Director
-image: "/uploads/sharon.jpg"
+image: "/uploads/kaz.jpg"
 ---
 
 Kaz is an innovation strategist and practitioner, a human-centered design thinker, and a complex systems problem-solver. She is a consultant of opportunity, working across sectors, going broad and deep, and connecting diverse networks of high-caliber thinkers and doers to catalyze systems change. As the daughter of two rocket scientists, Kaz founded Curious Catalyst to marry investigation with action, bringing an agile take to the business of social impact. Often called a professional outsider, Kaz brings to Yoxi her ability to recognize patterns and blind spots. 
