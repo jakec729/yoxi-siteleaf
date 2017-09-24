@@ -1,0 +1,33 @@
+.bg-images
+	position: fixed
+	top: 0
+	left: 0
+	width: 100%
+	z-index: 0
+	pointer-events: none
+	// +until($bp-md)
+	// 	display: none
+
+.bg-container
+	max-width: 90%
+	margin: 0 auto
+
+.bg-image
+	margin: 200px 0
+	width: 100%
+
+	&:nth-child(odd)
+		text-align: right
+
+	&:nth-child(3n) img 
+		width: 60%
+
+	&:nth-child(3n + 1) img 
+		width: 20%
+
+	&:nth-child(3n + 2) img 
+		width: 40%
+
+	img
+		display: inline-block
+		min-width: 400px

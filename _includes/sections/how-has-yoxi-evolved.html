@@ -1,0 +1,44 @@
+<section id="how-has-yoxi-evolved" class="how-has-yoxi-evolved has-margin-bottom-xl">
+	<div class="container">
+		<div class="row">
+			<header class="column is-offset-1-md is-offset-2-lg is-relative">
+				<span class="rectangle left offset"></span>
+				<h2 class="section-heading is-relative is-11-md">
+					How has Yoxi evolved and what efforts has it supported?
+				</h2>
+			</header>
+		</div>
+		<div class="row has-padding-bottom-large">
+			<div class="column is-offset-1-md is-offset-2-lg has-padding-top-medium is-relative">
+				<p>We invest in journeys of the unknown, support explorers with a commitment to pursue truth and beauty, and conduct experiments of our own. We believe learning is the most valuable ROI - and we are open and honest about our findings. Dig in below!</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column is-offset-1-md is-offset-2-lg has-padding-bottom">
+
+				{% for group in site.data.timeline %}
+				<section class="timeline-section">
+					<h3 class="timeline-date is-fs-2 is-marginless">{{group.year}}</h3>
+					<ul class="timeline-events is-unstyled">
+						{% for event in group.items %}
+							<li class="timeline-event level-{{event.level}}">{{event.title}}</li>
+						{% endfor %}
+					</ul>
+				</section>
+<!-- 				<section class="columns timeline-section">
+					<h3 class="column timeline-date is-fs-2 is-marginless">{{group.year}}</h3>
+					<div class="column">
+						<ul class="timeline-events is-unstyled">
+							{% for event in group.items %}
+								<li class="timeline-event level-{{event.level}}">{{event.title}}</li>
+							{% endfor %}
+						</ul>
+					</div>
+				</section>
+ -->				{% endfor %}
+
+			</div>
+		</div>
+
+	</div>
+</section>

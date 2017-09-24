@@ -1,0 +1,91 @@
+.bio
+	+until($bp-sm)
+		margin-left: -5%
+		margin-right: -5%
+.bio-image,
+.bio-quote
+	z-index: 2
+	position: relative
+
+.bio-image
+	+from($bp-md)
+		position: relative
+		top: 3rem
+		width: 12rem
+		flex: none
+
+.bio-quote
+	padding: 1.5rem 1.5rem 1rem
+	display: flex
+	flex-direction: column
+	+from($bp-md)
+		width: 70%
+
+	.bio-quote-tail
+		position: absolute
+		width: 1rem
+		top: -.9rem
+		transform: rotate(180deg)
+
+		+from($bp-md)
+			top: initial
+			bottom: -.9rem
+			transform: none
+
+	@for $i from 1 through length($color-steps)
+		$color: nth($color-steps, $i)
+		.bio:nth-child(#{length($color-steps) - $i}) &
+			background-color: $color
+
+			.bio-quote-tail
+				fill: $color
+
+.bio-text
+	background-color: white
+	color: black
+	position: relative
+	z-index: 1
+	padding: 1rem
+	outline: 4rem solid white
+
+.bio-question
+	font-weight: bold
+	font-size: 1.4rem
+	line-height: 1.2
+	flex: 1
+
+.bio-text
+	max-height: 0
+	overflow: hidden
+	opacity: 0
+	+transition-all
+
+@keyframes bounce
+	0%
+		transform: translateY(0%)
+	50%
+		transform: translateY(30%)
+
+.bio-icon-reveal
+	+transition-all
+
+	.bio:hover &
+		color: white
+		animation: bounce 1s infinite
+
+.bio-icon-close
+	position: relative
+	top: 1rem
+
+.bio.is-open 
+	.bio-text
+		max-height: 100%
+		margin-bottom: 4rem
+		opacity: 1
+
+	.bio-icon-reveal
+		animation: none
+		transform: rotate(180deg)
+	
+	.bio-icon-close
+		animation: bounce 1s infinite

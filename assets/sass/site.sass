@@ -1,0 +1,83 @@
+html,body 
+	background-color: $site-bg
+	width: 100%
+	margin: 0
+	padding: 0
+	overflow-x: hidden
+	+from(1600px)
+		font-size: $base-font-size
+	+until($bp-sm)
+		font-size: 95%
+
+// h2,
+.section-heading
+	line-height: 1.1
+	z-index: 1
+	position: relative
+	font-size: 3rem
+	+until($bp-xl)
+		font-size: 2.5rem
+	+until($bp-sm)
+		font-size: 1.95rem
+.site-header 
+	z-index: 99999
+	width: 100%
+
+	a
+		pointer-events: all
+
+	.site-logo 
+		width: 100px
+		height: 100px
+		background-color: $color-primary
+
+.site-main
+	position: relative
+	z-index: 2
+
+	+until($bp-md)
+		width: 80%
+		margin: 0 auto
+
+	> section:first-child
+		margin-top: 300px
+
+.site-footer
+	nav a + a
+		margin-left: 1rem
+
+	.fa
+		padding: .5rem
+		border-radius: 50%
+		width: 2rem
+		margin-right: .25rem
+		background-color: rgba(0,0,0,0.1)
+
+// 
+// SECTIONS
+// 
+.what-is-yoxi 
+	p
+		// margin-left: 14rem
+
+.explore-yoxi 
+	li
+		margin-right: 1rem
+		margin-bottom: 1rem
+		+from($bp-lg)
+			display: inline-block
+			width: 45%
+	li a
+		display: block
+		padding: 1rem
+	.fa
+		margin-right: 1rem
+
+.get-in-touch
+	form
+		position: relative
+	input
+		margin: 1.5rem 0
+		padding: 1.5rem
+	header
+		margin-bottom: 5rem

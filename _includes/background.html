@@ -1,0 +1,9 @@
+<section class="bg-images">
+	<div class="bg-container">
+		{% for image in site.data.background %}
+			<figure class="bg-image">
+				<img src="{{image}}" alt="Placeholder">
+			</figure>
+		{% endfor %}
+	</div>
+</section>

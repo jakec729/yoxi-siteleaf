@@ -1,0 +1,10 @@
+=jiggle($amount, $angle: 0deg)
+	$jiggle: $amount
+	@keyframes jiggle-#{$amount}-#{$angle}
+		0%
+			transform: rotate($angle)
+		33%
+			transform: rotate($angle + $jiggle)
+		66%
+			transform: rotate($angle - $jiggle * 2)
+	animation: jiggle-#{$amount}-#{$angle} 1s infinite

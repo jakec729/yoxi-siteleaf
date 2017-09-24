@@ -1,0 +1,62 @@
+.site-nav
+	text-align: right
+
+.nav-toggle
+	background-color: $color-primary
+	color: white
+	text-align: center
+	padding: .25rem
+	display: inline-block
+	width: 2.25rem
+	pointer-events: all
+
+	.fa
+		+transition-all
+	&:hover .fa
+		+jiggle(10deg)
+	.nav-open & .fa
+		transform: rotate(45deg)
+	.nav-open &:hover .fa
+		+jiggle(10deg, 45deg)
+
+.nav-links
+	text-align: center
+	transition: all $base-speed $base-easing
+	max-height: 0
+	overflow: hidden
+	opacity: 0
+
+	.nav-open &
+		max-height: 100%
+		opacity: 1
+
+.nav-item
+	display: block
+	padding: 2rem
+	background-color: $color-primary
+	color: white
+	
+	@for $i from 1 through length($color-steps)
+		&:nth-child(#{$i})
+			background-color: nth($color-steps, $i)
+
+	&:hover
+		background-color: white
+		color: $color-primary
+
+html:before
+	transition: background-color 1s
+	
+html.nav-open
+	overflow: hidden
+
+	&:before
+		content: ''
+		display: block
+		position: fixed
+		left: 0
+		top: 0
+		width: 100%
+		height: 100%
+		background-color: rgba(0,0,0,0.8)
+		z-index: 99

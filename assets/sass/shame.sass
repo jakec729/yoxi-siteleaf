@@ -1,0 +1,50 @@
+.is-link-wrapper.no-effects:hover
+	color: inherit
+
+.align-items-end
+	align-items: flex-end
+
+.is-relative
+	z-index: 0
+
+.leading-0
+	line-height: 1
+	
+.click-through
+	pointer-events: none
+	
+.rectangle
+	+until($bp-md)
+		width: 200px
+		height: 200px
+	display: block
+	width: 378px
+	height: 378px
+	position: absolute
+	top: 50%
+	background-color: $color-primary
+	z-index: -1
+
+	&.offset
+		top: 30%
+
+	&.offset-large
+		top: 15%
+
+	&.small
+		+until($bp-md)
+			width: 100px
+			height: 100px
+		width: 236px
+		height: 236px
+
+	&.left
+		left: 0
+		transform: translate(-50%, -50%)
+	&.right
+		right: 0
+		transform: translate(50%, -50%)
+
+
+.has-margin-bottom-xl
+	margin-bottom: 18rem

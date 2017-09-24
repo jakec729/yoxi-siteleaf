@@ -1,0 +1,35 @@
+a.btn,
+button, 
+[type="button"], 
+[type="reset"], 
+[type="submit"]
+	font-weight: bold
+	font-weight: 700
+	background-color: transparent
+	border: none
+	margin: 0
+	padding: 0
+	+transition-all
+
+	&.btn-primary
+		background-color: $color-primary
+		color: white
+
+		&:hover
+			background-color: white
+			color: $color-primary
+
+	&.btn-outline
+		border: 2px solid $color-primary
+		background-color: transparent
+		color: $color-primary
+
+		&:hover
+			background-color: $color-primary
+			color: white
+
+button
+	&:hover
+		cursor: pointer
+	&:focus
+		outline: none

@@ -1,0 +1,67 @@
+$headlineOffset: 8rem
+$gap: 2rem
+
+.timeline-section
+	position: relative
+	+until($bp-md)
+		border-left: 2px solid $color-primary
+	+from($bp-md)
+		margin-left: $headlineOffset
+
+.timeline-date
+	+until($bp-md)
+		padding-left: $gap
+	+from($bp-md)
+		margin-left: 0
+		position: absolute
+		left: -($headlineOffset)
+
+.timeline-events
+	margin: 0
+	padding-bottom: 2.75rem
+	line-height: 1.2
+
+	+from($bp-md)
+		border-left: 2px solid $color-primary
+
+	.timeline-section:last-of-type &
+		padding-bottom: 0
+
+.timeline-event
+	$timeline-icon-size: 1.5rem
+	margin: 0 0 .5rem $gap
+	padding: .25rem 0
+	position: relative
+	line-height: 1.3
+
+	&:before
+		content: ""
+		height: $timeline-icon-size
+		width: $timeline-icon-size
+		position: absolute
+		top: 50%
+		left: -($gap + .05 + $timeline-icon-size/2)
+		transform: translateY(-50%)
+
+	&.level-primary,
+	&.level-secondary
+		font-weight: bold
+		font-weight: 700
+		font-size: 1.3rem
+
+	&.level-primary
+		color: $color-primary
+		&:before
+			background: no-repeat 100% url('../icons/circle.svg')
+
+	&.level-secondary
+		&:before
+			$timeline-icon-secondary: 1.125rem
+			height: $timeline-icon-secondary
+			width: $timeline-icon-secondary
+			left: -($gap + .05 + $timeline-icon-secondary/2)
+			background: no-repeat 100% url('../icons/diamond.svg')
+
+	&.level-tertiary
+		&:before
+			background: no-repeat 100% url('../icons/dash.svg')

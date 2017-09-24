@@ -1,0 +1,22 @@
+{
+  "name": "jcd-jekyll-base",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "jakecooperdesign <jakecooperdesign@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/vendor/bower_components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "fontawesome#^4.7.0",
+    "jcd-bootstrap": "jakecooperdesign/jcd-bootstrap"
+  }
+}
