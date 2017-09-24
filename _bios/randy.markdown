@@ -2,7 +2,7 @@
 title: Randy Makiej
 question: How can we stop talking about ice cream and space elevator?
 prof_title: Advisor
-image: "/uploads/sharon.jpg"
+image: "/uploads/randy.jpg"
 ---
 
 Kaz is an innovation strategist and practitioner, a human-centered design thinker, and a complex systems problem-solver. She is a consultant of opportunity, working across sectors, going broad and deep, and connecting diverse networks of high-caliber thinkers and doers to catalyze systems change. As the daughter of two rocket scientists, Kaz founded Curious Catalyst to marry investigation with action, bringing an agile take to the business of social impact. Often called a professional outsider, Kaz brings to Yoxi her ability to recognize patterns and blind spots. 
