@@ -2,15 +2,23 @@
 title: Yoxi.tv
 timezone: UTC
 collections:
+  bios:
+    title: Bios
+    output: false
   posts:
     title: Posts
     output: true
   uploads:
     title: Uploads
     output: true
-  bios:
-    title: Bios
-    output: false
+defaults:
+- scope:
+    path: bios
+    type: pages
+  values:
+    question: 
+    prof_title: Founder
+    image: 
 email: sharon@yoxi.tv
 description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
@@ -49,12 +57,3 @@ exclude:
 gems:
 - jekyll-feed
 - jekyll-sitemap
-defaults:
-  -
-    scope:
-      path: "bios"
-      type: "pages"
-    values:
-      question: 
-      prof_title: Founder
-      image: 
