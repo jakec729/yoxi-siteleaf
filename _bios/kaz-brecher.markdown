@@ -1,6 +1,6 @@
 ---
-position: 1
 title: Kaz Brecher
+position: 1
 question: How do we prevent Sharon from breaking the space elevator again and again?
 prof_title: Executive Director
 image: "/uploads/kaz.jpg"
