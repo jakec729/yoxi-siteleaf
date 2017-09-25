@@ -1,6 +1,6 @@
 ---
-order: 5
 title: To get in touch or submit work for consideration, send us a signal
+order: 5
 section_id: get-in-touch
 classes:
   header: is-offset-1-md is-offset-2-lg is-9-lg

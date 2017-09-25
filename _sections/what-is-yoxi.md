@@ -1,12 +1,12 @@
 ---
+title: How might we uncover prosperous paths to a beautiful future?
 order: 1
-title: "How might we uncover prosperous paths to a beautiful future?"
 section_id: what-is-yoxi
 classes:
-  header: "is-offset-1-md is-offset-2-lg"
+  header: is-offset-1-md is-offset-2-lg
   square: left
-  heading: "is-11-md"
-  content: "is-offset-2-md is-offset-4-lg"
+  heading: is-11-md
+  content: is-offset-2-md is-offset-4-lg
 parent: home
 ---
 

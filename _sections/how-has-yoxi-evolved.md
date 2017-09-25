@@ -1,6 +1,6 @@
 ---
-order: 4
 title: Explore our point of view or join our conversations
+order: 4
 section_id: how-has-yoxi-evolved
 classes:
   header: is-offset-1-md is-offset-2-lg
