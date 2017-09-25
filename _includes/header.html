@@ -7,10 +7,10 @@
 		<div class="site-nav">
 			<button class="nav-toggle"><i class="fa fa-plus"></i></button>
 			<nav class="nav-links">
-				<a class="nav-item is-link-wrapper is-strong" href="#what-is-yoxi">What is Yoxi and why does it fund exploration?</a>
-				<a class="nav-item is-link-wrapper is-strong" href="#who-is-yoxi">Who is behind Yoxi and its mission?</a>
-				<a class="nav-item is-link-wrapper is-strong" href="#how-has-yoxi-evolved">How has Yoxi evolved and what efforts has it supported?</a>
-				<a class="nav-item is-link-wrapper is-strong" href="#get-in-touch">How can I get in touch or submit my project for considerations?</a>
+				{% assign sections = site.sections | sort: "position" %}
+				{% for section in sections %}
+					<a class="nav-item is-link-wrapper is-strong" href="#{{section.section_id}}">{{section.title}}</a>
+				{% endfor %}
 			</nav>
 		</div>
 	</header>

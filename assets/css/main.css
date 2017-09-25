@@ -7815,7 +7815,7 @@ html, body {
         width: 100px;
         height: 100px; } }
   .rectangle.left {
-    left: 0;
+    left: -1rem;
     -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%); }
