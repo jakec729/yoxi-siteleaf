@@ -42,7 +42,7 @@ background_images:
 - image: "/uploads/Yoxi_BG_Network.jpg"
 - image: "/uploads/Yoxi_BG_Sewing_2.jpg"
 baseurl: 
-url: http://yoxi.tv
+url: 
 markdown: kramdown
 kramdown:
   input: GFM
