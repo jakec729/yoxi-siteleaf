@@ -2,7 +2,7 @@
 	<div class="bg-container">
 		{% for item in site.background_images %}
 			<figure class="bg-image">
-				<img src="{{item.image}}" alt="Placeholder">
+				<img src="{{item.image | prepend: site.baseurl | prepend: site.url }}" alt="Placeholder">
 			</figure>
 		{% endfor %}
 	</div>
