@@ -1,6 +1,6 @@
 ---
 title: Who is behind Yoxi and its mission?
-position: 4
+position: 1
 order: 2
 section_id: who-is-yoxi
 classes:
