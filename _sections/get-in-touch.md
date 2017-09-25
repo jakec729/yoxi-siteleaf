@@ -1,6 +1,6 @@
 ---
 title: To get in touch or submit work for consideration, send us a signal
-position: 2
+position: 3
 order: 5
 section_id: get-in-touch
 classes:
