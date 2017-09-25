@@ -1,6 +1,6 @@
 ---
-title: Explore our point of view or join our conversations
-order: 4
+title: How has Yoxi evolved and what efforts has it supported?
+order: 3
 section_id: how-has-yoxi-evolved
 classes:
   header: is-offset-1-md is-offset-2-lg
