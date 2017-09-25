@@ -1,7 +1,6 @@
 ---
 title: Who is behind Yoxi and its mission?
 position: 1
-order: 2
 section_id: who-is-yoxi
 classes:
   header: is-offset-2-md is-12-until-md is-9-md has-padding-bottom

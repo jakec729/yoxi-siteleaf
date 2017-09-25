@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign sections = site.sections | sort: "order" %}
+{% assign sections = site.sections | sort: "position" %}
 {% for page in sections %}
 	{% include section.html %}
 {% endfor %}

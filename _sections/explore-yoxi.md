@@ -1,7 +1,6 @@
 ---
 title: Explore our point of view or join our conversations
 position: 3
-order: 4
 section_id: explore-yoxi
 classes:
   header: is-offset-2-md is-9-md
