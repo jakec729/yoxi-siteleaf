@@ -1,5 +1,6 @@
 <div class="timeline has-padding-vert">
-	{% for group in site.data.timeline %}
+	{% assign timeline = site.timeline|sort:"year" %}
+	{% for group in timeline %}
 	<section class="timeline-section">
 		<h3 class="timeline-date is-fs-2 is-marginless">{{group.year}}</h3>
 		<ul class="timeline-events is-unstyled">
