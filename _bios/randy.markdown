@@ -1,4 +1,5 @@
 ---
+position: 2
 title: Randy Makiej
 question: How can we stop talking about ice cream and space elevator?
 prof_title: Advisor

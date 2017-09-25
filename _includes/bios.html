@@ -1,6 +1,6 @@
 <div class="bios has-margin-top-large">
 
-	{% for person in site.bios %}
+	{% for person in site.bios | sort:"position" %}
 		<article class="bio has-margin-bottom-large">
 			<a href="#" class="is-link-wrapper no-effects js-control bio-toggle">
 				<div class="is-flex-md align-items-end">
