@@ -1,9 +1,7 @@
 ---
 layout: default
 ---
-
-{% include sections/what-is-yoxi.html %}
-{% include sections/who-is-yoxi.html %}
-{% include sections/how-has-yoxi-evolved.html %}
-{% include sections/explore-yoxi.html %}
-{% include sections/get-in-touch.html %}
+{% assign sections = site.sections | sort: "order" %}
+{% for page in sections %}
+	{% include section.html %}
+{% endfor %}

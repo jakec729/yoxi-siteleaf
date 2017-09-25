@@ -1,0 +1,12 @@
+<div class="timeline has-padding-vert">
+	{% for group in site.data.timeline %}
+	<section class="timeline-section">
+		<h3 class="timeline-date is-fs-2 is-marginless">{{group.year}}</h3>
+		<ul class="timeline-events is-unstyled">
+			{% for event in group.items %}
+				<li class="timeline-event level-{{event.level}}">{{event.title}}</li>
+			{% endfor %}
+		</ul>
+	</section>
+	{% endfor %}
+</div>
