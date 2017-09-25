@@ -5,6 +5,9 @@ collections:
   bios:
     title: Bios
     output: false
+  timeline:
+    title: Timeline
+    output: false
   posts:
     title: Posts
     output: true
