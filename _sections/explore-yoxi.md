@@ -1,5 +1,6 @@
 ---
 title: Explore our point of view or join our conversations
+position: 1
 order: 4
 section_id: explore-yoxi
 classes:

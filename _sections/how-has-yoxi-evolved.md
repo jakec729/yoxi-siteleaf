@@ -1,5 +1,6 @@
 ---
 title: How has Yoxi evolved and what efforts has it supported?
+position: 3
 order: 3
 section_id: how-has-yoxi-evolved
 classes:

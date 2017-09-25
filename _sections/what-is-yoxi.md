@@ -1,5 +1,6 @@
 ---
 title: How might we uncover prosperous paths to a beautiful future?
+position: 0
 order: 1
 section_id: what-is-yoxi
 classes:
